@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        img
+        {
+            max-width: 500px;
+        }
+    </style> 
+    <div id= page>
+        <img src="images/what.png", id="what">
+    </div>
+        <button id="rocks">rock</button>
+        <button id="sissors">sissor</button>
+        <button id="papers">paper</button>
+    <div id=result>
+    </div>
+<script>
+
+
+        var rock = document.getElementById("rocks"); //0
+        var sissor = document.getElementById("sissors"); //1
+        var paper = document.getElementById("papers"); //2
+
+        var randompush = Math.floor(Math.random()*3);
+        
+           
+        rock.addEventListener("click", function(){
+            if(randompush == 0){
+                result.innerText = "draw";
+                document.getElementById("what").src="images/rock.png";
+            }else if(randompush == 1){
+                result.innerText = "win";
+                document.getElementById("what").src="images/sissor.png";
+            }else{
+                result.innerText = "lose";
+                document.getElementById("what").src="images/paper.png";
+            }
+        });
+        sissor.addEventListener("click", function(){
+            if(randompush == 0){
+                result.innerText = "lose";
+                document.getElementById("what").src="images/rock.png";
+            }else if(randompush == 1){
+                result.innerText = "draw";
+                document.getElementById("what").src="images/sissor.png";
+            }else{
+                result.innerText = "win";
+                document.getElementById("what").src="images/paper.png";
+            }
+        });
+        paper.addEventListener("click", function(){
+            if(randompush == 0){
+                result.innerText = "win";
+                document.getElementById("what").src="images/rock.png";
+            }else if(randompush == 1){
+                result.innerText = "lose";
+                document.getElementById("what").src="images/sissor.png";
+            }else{
+                result.innerText = "draw";
+                document.getElementById("what").src="images/paper.png";
+            }
+        });
+
+    </script>
+</html>
