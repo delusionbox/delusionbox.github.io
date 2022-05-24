@@ -1,0 +1,47 @@
+body {
+	background-color: rgb(181, 214, 146);
+}
+
+h1 {
+	color: gray;
+	text-align: center;
+}
+
+h2 {
+	color: gray;
+	text-align: center;
+}
+
+.column {
+		float: left;
+		width: 25%;
+		text-align: center;
+	}
+	
+.row:after {
+		content: " ";
+		display: table;
+		clear: both;
+}
+.row {
+		margin-top: 100px;
+}
+
+a:link, a:visited {
+	background-color: #F5F5DC;
+	color: black;
+	border: 2px solid white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	justify-content: center;
+}
+
+a:hover, a:active {
+	background-color: rgb(181, 214, 200);
+	color: white;
+}
+
+	
+	
