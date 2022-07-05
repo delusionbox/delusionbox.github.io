@@ -1,0 +1,46 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    color: chocolate;
+}
+
+button {
+    border-radius: 20%;
+    border-color: aquamarine;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+
+#h3div {
+    border-style: dotted;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    background-color: burlywood;
+}
+
+#pdiv {
+    border-style: dotted;
+    margin-left: 5px;
+    background-color: burlywood;
+
+}
+
+#root {
+    background-color: bisque;
+    width: 45%;
+    height: 45%;
+}
+
+p {
+    margin-left: 10px;
+}
+
+#demo {
+    margin-left: 10px;
+}
+
+#star {
+    margin-left: 10px;
+}
